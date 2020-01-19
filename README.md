@@ -11,7 +11,7 @@ Wails CLI can be installed with go get. After installation, you should set it up
 go get github.com/wailsapp/wails/cmd/wails
 wails setup
 ```
-Then let's bootstrap our project with the name cpustats:
+Then to bootstrap the project with the name cpustats:
 ```bash
 wails init
 cd cpustats
