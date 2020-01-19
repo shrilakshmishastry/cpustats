@@ -1,2 +1,35 @@
 # cpustats
+
 This is a desktop application built to display cpu usage of my machine in real time.
+
+## Installation
+Wails CLI can be installed with go get. After installation, you should set it up using wails setup command.
+
+
+
+```bash
+go get github.com/wailsapp/wails/cmd/wails
+wails setup
+```
+Then let's bootstrap our project with the name cpustats:
+```bash
+wails init
+cd cpustats
+```
+
+## Usage
+To test if it works run the following command:
+
+```bash
+wails build -d
+./cpustats
+```
+## Final Build and Run
+```bash
+wails build -d
+./cpustats
+```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
