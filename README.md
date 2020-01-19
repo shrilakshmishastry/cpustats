@@ -21,8 +21,7 @@ cd cpustats
 To test if it works run the following command:
 
 ```bash
-wails build -d
-./cpustats
+wails serve
 ```
 ## Final Build and Run
 ```bash
